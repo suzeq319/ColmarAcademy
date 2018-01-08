@@ -110,15 +110,11 @@ header p {
 }
 
 .column1image {
-  height: 100%;
+  height: 334px;
   background-image: url("/Users/suzeq319/Desktop/CodeCademy/colmarAcademy/resources/capstone_colmar_assets/images/information-main.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  flex-shrink: auto;
-  object-fit: contain;
-  margin: 0 auto;
-  flex-basis: 60%;
 }
 
 .column1text h2 {
@@ -132,23 +128,94 @@ header p {
 }
 
 .column2 {
-  display: flex;
-  flex-direction: row;
+  display: inline-flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 
 .row1 {
-
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.image3 {
-  height: 200px;
+.row1 .row2 .row3 {
+  display: inline-flex;
+  flex-direction: column;
+  flex-grow: 3;
+}
+
+.row1 .image3 {
+  height: 150px;
+  width: 150px;
   background-image: url("/Users/suzeq319/Desktop/CodeCademy/colmarAcademy/resources/capstone_colmar_assets/images/information-orientation.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   flex-shrink: auto;
   object-fit: contain;
-  margin: 0 auto;
+  margin: 0 16px 20px 0;
+}
+
+.column2 h5 {
+  color: blue;
+}
+.row2 .image3text {
+  flex-grow: 2;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row2 .image4 {
+  height: 150px;
+  width: 150px;
+  background-image: url("/Users/suzeq319/Desktop/CodeCademy/colmarAcademy/resources/capstone_colmar_assets/images/information-campus.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  flex-shrink: auto;
+  object-fit: contain;
+  margin: 0 16px 20px 0;
+}
+
+.image4text {
+  flex-grow: 2;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image3 .image4 .image5 p {
+  font-size: 12px;
+  flex-wrap: wrap;
+}
+.row3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: Lightgray;
+}
+
+.row3 .image5 {
+  height: 150px;
+  width: 150px;
+  background-image: url("/Users/suzeq319/Desktop/CodeCademy/colmarAcademy/resources/capstone_colmar_assets/images/information-guest-lecture.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  flex-shrink: auto;
+  object-fit: contain;
+}
+
+.image5text {
+  flex-grow: 2;
+  justify-content: space-around;
+  align-items: center;
 }
