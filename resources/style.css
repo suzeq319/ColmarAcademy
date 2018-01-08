@@ -1,3 +1,156 @@
 html {
-  font-family: Helvetica
+  font-family: Verdana;
+}
+
+.banner header h3 p {
+  display: inline-flex;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  background-color: white;
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+  height: 32px;
+  align-items: center;
+}
+
+header h3 {
+  display: inline-flex;
+  font-weight: normal;
+}
+
+header h3 .academy {
+  color: gray;
+}
+
+header p {
+  font-size: 12px;
+  font-weight: normal;
+  display: inline-flex;
+  align-items: flex-start;
+}
+
+.section1 {
+  height: 544px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: lightgrey;
+}
+
+.container {
+  flex: 0 0 auto;
+  height: 100%;
+  width: 760px;
+  position: relative;
+  overflow: auto;
+}
+
+.image1 {
+  height: 481px;
+  background-image: url("/Users/suzeq319/Desktop/CodeCademy/colmarAcademy/resources/capstone_colmar_assets/images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /*flex-shrink: auto;
+  object-fit: contain;*/
+  margin: 32px 24px;
+  position: relative;
+}
+
+.section1text {
+  margin-right: 100px;
+  margin-left: 30px;
+  flex-basis: 25%;
+}
+
+.section1text h1 {
+  font-weight: bolder;
+  font-size: 2em;
+  font-stretch: ultra-expanded;
+}
+
+.section1text p {
+  font-size: 1.5em;
+}
+
+.section1text button {
+  display: flex;
+  font-size: 14px;
+  font-stretch: ultra-expanded;
+  color: white;
+  background-color: black;
+  padding: 15px 40%;
+  text-align: center;
+}
+
+.section2 {
+  height: 608px;
+  width: 984px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  position: relative;
+}
+
+.column1 {
+  flex: 0 0 auto;
+  height: 480px;
+  width: 760px;
+  margin: 32px 24px;
+  position: relative;
+}
+
+.column1image {
+  height: 100%;
+  background-image: url("/Users/suzeq319/Desktop/CodeCademy/colmarAcademy/resources/capstone_colmar_assets/images/information-main.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  flex-shrink: auto;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.column1text h2 {
+  font-weight: bolder;
+  font-size: 3em;
+  font-stretch: ultra-expanded;
+}
+
+.column1text p {
+  font-size: 10px;
+}
+
+.column2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.row1 {
+
+}
+
+.image3 {
+  height: 100%;
+  background-image: url("/Users/suzeq319/Desktop/CodeCademy/colmarAcademy/resources/capstone_colmar_assets/images/information-orientation.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  flex-shrink: auto;
+  object-fit: contain;
+  margin: 0 auto;
+
 }
