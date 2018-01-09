@@ -197,7 +197,7 @@ header p {
   align-items: center;
 }
 
-.row3 #image5 {
+#image5 {
   height: 150px;
   width: 150px;
   background-image: url("/Users/suzeq319/Desktop/CodeCademy/colmarAcademy/resources/capstone_colmar_assets/images/information-guest-lecture.jpg");
@@ -216,17 +216,171 @@ header p {
 
 /*section3*/
 
-.section3 {
-  height: 560px;
-  
+.section3container {
+  height: 700px;
+  width: inherit;
 }
 
-.section3header {}
+.section3header h2 {
+  text-align: center;
+}
 
-.section3 .row1 {}
+.section3 p {
+  font-size: 14px;
+}
 
-#image6 {}
+.toprow {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 40%;
+}
 
-.image6text {}
+.box6 {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 32px 32px 72px;
+  justify-content: flex-start;
+  flex-basis: 30%;
+}
 
-.section3 .row2 {}
+.box7 {
+  height: 318px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 32px 32px 0;
+  justify-content: flex-start;
+  flex-basis: 30%;
+}
+
+.box8 {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 72px 32px 0;
+  justify-content: flex-start;
+  flex-basis: 30%;
+}
+
+.box9 {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 32px 32px 72px;
+  justify-content: flex-start;
+  flex-basis: 30%;
+}
+
+.box10 {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 32px 32px 0;
+  justify-content: flex-start;
+  flex-basis: 30%;
+}
+
+.box11 {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 72px 32px 0;
+  justify-content: flex-start;
+  flex-basis: 30%;
+}
+
+.box6 #image6 {
+  background-image: url("/Users/suzeq319/Desktop/CodeCademy/colmarAcademy/resources/capstone_colmar_assets/images/course-software.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  flex-grow: 1;
+}
+
+.box7 #image7 {
+  background-image: url("/Users/suzeq319/Desktop/CodeCademy/colmarAcademy/resources/capstone_colmar_assets/images/course-computer-art.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  flex-grow: 1;
+}
+
+.box8 #image8 {
+  background-image: url("/Users/suzeq319/Desktop/CodeCademy/colmarAcademy/resources/capstone_colmar_assets/images/course-design.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  flex-grow: 1;
+}
+
+.bottomrow {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 40%;
+}
+
+.box9 #image9 {
+  background-image: url("/Users/suzeq319/Desktop/CodeCademy/colmarAcademy/resources/capstone_colmar_assets/images/course-data.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  flex-grow: 1;
+}
+
+.box10 #image10 {
+  background-image: url("/Users/suzeq319/Desktop/CodeCademy/colmarAcademy/resources/capstone_colmar_assets/images/course-business.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  flex-grow: 1;
+}
+
+.box11 #image11 {
+  background-image: url("/Users/suzeq319/Desktop/CodeCademy/colmarAcademy/resources/capstone_colmar_assets/images/course-marketing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  flex-grow: 1;
+}
+
+.section4 {
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.section4header h2 {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.column4.1 {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 24px 24px 24px;
+  flex-basis: 60%;
+  justify-content: flex-start;
+}
+#videotext {
+  display: flex;
+  flex-direction: row;
+}
+
+.column4.2 {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 24px 24px 24px;
+  justify-content: center;
+  flex-basis: 40%;
+}
+
+.section4 #video {
+  height: 400px;
+  display: flex;
+  flex-basis: 40%;
+  object-fit: contain;
+}
